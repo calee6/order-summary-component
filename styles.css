@@ -1,0 +1,167 @@
+:root {
+    /*Primary*/
+    --pale-blue: #e0e8ff;
+    --bright-blue : #3829e0;
+
+    /*Neutral*/
+    --very-pale-blue: #f5f7ff;
+    --desaturated-blue: #7280a7;
+    --dark-blue: #1f2f56;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: var(--dark-blue);
+    display: block;
+    text-decoration: none;
+}
+
+body {
+    align-items: center;
+    background-color: var(--pale-blue);
+    background-image: url('/images/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    background-size:contain;
+    display: flex;
+    font-family: 'Red Hat Display', sans-serif;
+    height: 100vh;
+    justify-content: center;
+    text-align: center;
+}
+
+h1 {
+    color: var(--dark-blue);
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+p { 
+    color: var(--desaturated-blue);
+}
+
+.annual-plan {
+    color: var(--dark-blue);
+    font-weight: 700;
+}
+
+.change{
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.change:hover {
+    color: #6c60f5;
+    text-decoration: none;
+}
+
+.cancel {
+    color: var(--desaturated-blue);
+    font-weight: 700;
+}
+
+.cancel:hover {
+    color: var(--dark-blue);
+}
+
+.container {
+    background-color: white;
+    border-radius: 20px;
+    width: 400px;
+}
+
+.illustration-image {
+    background-image: url('images/illustration-hero.svg');
+    background-size: cover;
+    border-radius: 20px 20px 0px 0px;
+    height: 200px;
+}
+
+.information {
+    padding: 25px;
+}
+
+.information-section {
+    margin: 20px 0px;
+}
+
+.music-icon {
+    margin-right: 10px;
+}
+
+.music-plan {
+    align-items: center;
+    background-color: var(--very-pale-blue);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 20px 25px;
+}
+
+.payment {
+    background-color: #3829e0;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 15px 15px #ccd7f6;
+    color: white;
+    display: block;
+    font-weight: 700;
+    margin: 0 auto;
+    padding: 10px 0px;
+    width: 100%;
+}
+
+.payment:hover {
+    background-color: #6c60f5;
+}
+
+.plan {
+    align-items:stretch;
+    display: flex;
+    margin: 0;
+}
+
+
+
+@media (max-width: 756px) {
+    body {
+        background-image: url('/images/pattern-background-mobile.svg');
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+    
+    .container {
+        width: 350px;
+    }
+    
+    .illustration-image {
+        height: 200px;
+    }
+    
+    .information {
+        padding: 20px;
+    }
+    
+    .information-section {
+        margin: 15px 0px;
+    }
+    
+    .music-icon {
+        margin-right: 10px;
+    }
+    
+    .music-plan {
+        padding: 20px ;
+    }
+    
+    .payment {
+        box-shadow: 0px 12px 12px #ccd7f6;
+    }
+ 
+}
