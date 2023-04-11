@@ -60,6 +60,7 @@ p {
 
 .cancel {
     color: var(--desaturated-blue);
+    display: inline;
     font-weight: 700;
 }
 
