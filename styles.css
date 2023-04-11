@@ -23,7 +23,7 @@ a {
 body {
     align-items: center;
     background-color: var(--pale-blue);
-    background-image: url('/images/pattern-background-desktop.svg');
+    background-image: url('images/pattern-background-desktop.svg');
     background-repeat: no-repeat;
     background-size:contain;
     display: flex;
@@ -129,7 +129,7 @@ p {
 
 @media (max-width: 756px) {
     body {
-        background-image: url('/images/pattern-background-mobile.svg');
+        background-image: url('images/pattern-background-mobile.svg');
     }
 
     h1 {
